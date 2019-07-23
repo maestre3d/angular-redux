@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>Home</h1>
+    <p>{{ counter }}</p>
+    <div class="actions">
+        <button mat-raised-button color="accent" (click)="decreaseCount()">Decrease</button>
+        <button mat-raised-button color="primary" (click)="increaseCount()">Increase</button>
+    </div>
+    <hr>
+    
+    <div class="viewport">
+        <app-count></app-count>
+    </div>
+</div>
